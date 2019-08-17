@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>position-z-index</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.page{
+			width: 100%;
+			height: 4043px;
+			background: url("imooc.jpg")  center top no-repeat;
+		}
+		.nav{
+			width: 160px;
+			height: 205px;
+			position: fixed;
+			left: 0px;
+			top:50%;
+			margin-top: -103px;
+			font-family: 'Miscrosoft YaHei'
+
+		}
+		.nav-li{
+			width: 160px;
+			height: auto;
+			border-bottom: 1px solid #FFF;
+			background: #333;
+			text-align: center;
+			line-height: 40px;
+			color: #FFF;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		.nav-li:hover ul{
+			display: block;
+		}
+		.title{
+			width: 160px;
+			height: 40px;
+		}
+		.nav-li ul{
+			width: 100%;
+			height: auto;
+			background: #fff;
+			display: none;
+
+		}
+		.nav-li ul li{
+			width: 160px;
+			height: 40px;  
+			border-bottom: 1px dashed #666;
+			color: #333;
+			text-align: center;
+			line-height: 40px;
+			position: relative;
+		}
+		
+		.listc{
+			width: 160px;
+			height: auto;
+			position: absolute;
+			left: 150px;
+			top: 40px;
+			display: none;
+			
+		}
+		.nav-li ul li:hover div{
+			display: block;
+		}
+		.list-3Dom{
+			width: 160px;
+			height: 40px;
+			background: #444;
+			border-bottom: 1px solid #fff;
+			text-align: center;
+			line-height: 40px;
+			color: #FFF;
+		}
+		
+		
+	</style>
+
+</head>
+<body>
+	<div class="page">
+		<div class="nav">
+			<div class="nav-li">
+				<div class="title">慕课网标题</div>
+				<ul>
+					<li class="list2">二级的栏目</li>
+					<div class="listc">
+						<div class="list-3Dom">三级栏目</div>
+						<div class="list-3Dom">三级栏目</div>
+					</div>
+					<li>二级栏目</li>
+					<li>二级栏目</li>
+				</ul>
+			</div>
+			<div class="nav-li">
+				<div class="title">慕课网标题</div>
+				<ul>
+					<li>二级栏目</li>
+					<li>二级栏目</li>
+					<li>二级栏目</li>
+				</ul>
+			</div>
+			<div class="nav-li">
+				<div class="title">慕课网标题</div>
+				<ul>
+					<li>二级栏目</li>
+					<li>二级栏目</li>
+					<li>二级栏目</li>
+				</ul>
+			</div>
+			<div class="nav-li">
+				<div class="title">慕课网标题</div>
+				<ul>
+					<li>二级栏目</li>
+					<li>二级栏目</li>
+					<li>二级栏目</li>
+				</ul>
+			</div>
+			
+		</div>
+	<div>
+
+	
+</body>
+</html>
